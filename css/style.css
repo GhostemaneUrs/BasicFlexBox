@@ -176,3 +176,11 @@ pero respeta si es el contenido necesita mas espacio */
 .d-flex-12 .box:nth-child(3) {
   flex-shrink: 2;
 }
+
+.d-flex-13 {
+  display: flex;
+}
+
+.d-flex-13 .box {
+  flex: 1; /* factor de crecimiento corto, tiene los 3 grow, shrink, basic */
+}
